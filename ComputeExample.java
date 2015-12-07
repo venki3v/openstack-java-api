@@ -26,8 +26,8 @@ public class openstackcompute {
 		   networks.add("cc812202-f0b4-4b33-b8a0-e0fa21265766");
     // authenticate
 		OSClient os = OSFactory.builder()
-                .endpoint("http://controller.ecap.tdaf.com:35357/v2.0")
-                .credentials("t3613vs","Mar@ved7")
+                .endpoint("http://controller.ecap.com:35357/v2.0")
+                .credentials("t3613vs","xxxxxx")
                 .tenantName("arch-lab")
                 .authenticate();
 		
